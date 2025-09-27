@@ -1,0 +1,18 @@
+[project]
+name = "rag-experiment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=0.3.27",
+    "ollama>=0.6.0",
+    "pydantic-ai>=1.0.10",
+    "pytest>=8.4.2",
+    "sentence-transformers>=5.1.1",
+    "sqlite-vec>=0.1.6",
+    "tiktoken>=0.11.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "-s"
